@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     },
     homeBtn: {
         cursor:'pointer',
-        padding:'10px'
+        padding:'5px'
     },
     maxValue:{
         color:'red',
@@ -43,7 +43,7 @@ const classes = useStyles();
 //
 // ─── FETCH FROM BACKEND ──────────────────────────────────────────────────────────────────────
 const fetchFromBackEnd = async () =>{
-    let url = '/cov19/v1'
+    let url = '/reactapp/cov19/v1'
     try {
         let fetchData = await axios(url);
         let res = await fetchData.data;
@@ -122,7 +122,7 @@ let domObj = dataArr.map((c, indx) =>{
     
     return (
         <div className={classes.root}>
-           {/* <a href="/"> <HomeIcon className={classes.homeBtn}/></a> */}
+           // <a href="/catalog"> <HomeIcon className={classes.homeBtn}/></a> 
            <a href="/" className={classes.homeBtn}> <span role='img' aria-label='reload'>🔃</span></a>
     <div className={classes.maxValue}>
         <div>
