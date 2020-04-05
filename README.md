@@ -11,7 +11,7 @@ I just added a simple loader effect, and a chart data visualization
 of the infection using d3.
 I changed the data order, now are ordered by country max deaths.
 
-The project is realize using this tech:
+The project is realized using this tech:
 - BackEnd NodeJ
 - FrontEnd React Hooks
 - Data visualization d3
